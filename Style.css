@@ -1,0 +1,642 @@
+*{
+  margin: 0%;
+  padding: 0;
+  scroll-behavior: smooth;  
+}
+.home{
+    background:url("img/White\ and\ Purple\ Gradient\ Digital\ Marketing\ Desktop\ Prototype\ \(2\).png");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 15px;
+}
+.hero{
+    height: 373px;
+    width: 360px;
+    background-color: rgba(255, 255,255, 3);
+    border-radius: 70% 30% 42% 58% / 69% 75% 25% 31%;
+    position: absolute;
+    right: 134px;
+    top: 212px;
+    
+}
+.logo{
+    margin-left: 100px;
+}
+.ul{
+    margin-left: 133px;
+}
+.li{
+    margin: 0 16px;
+}
+.ul .li .a{
+font-size: 19px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 300;
+
+}
+.pic{
+    width: 360px;
+    height: 360px;
+    position: absolute;
+    right: -2px;
+    top: -93px;
+
+}
+.text{
+    position: absolute;
+    top: 154px;
+    left:231px ;
+}
+.text h3{
+    font-size: 39px;
+    font-weight: 700;
+}
+.text p{
+    margin-top: 33px;
+
+}
+ .container-fluid .button{
+    background: yellow;
+    border-radius: 14px;
+    padding: 0px 18px;
+    height: 32px;
+    width: 115px;
+    box-shadow: 3px 3px 5px #6a6a57;
+    margin-left: 51px;
+}
+.text .butn{
+    text-decoration: none;
+    background: yellow;
+    border-radius: 33px;
+    padding: 4px 19px;
+    box-shadow: 3px 3px 5px #767657;
+    margin: 0 12px;
+}
+.text .butn a{
+    text-decoration: none;
+color: #000;
+}
+.socal{
+    position: absolute;
+    top: 502px;
+    left: 214px;
+
+}
+.socal-img{
+    text-decoration: none;
+    height: 30px;
+    width: 30px;
+    margin: 0 17px;
+    border-radius: 7px;
+    box-shadow: 3px 3px 3px;
+}
+/* Service */
+    
+.service{
+    background-color:#ffff2861;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+
+}
+.Service-text{
+    position: absolute;
+    top: 838px;
+    left: 207px;
+}
+.Service-text h1{
+    font-size: 74px;
+    font-weight: 500;
+    margin-bottom: 34px;
+}
+.Service-text p{
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+.service-hero{
+    position: absolute;
+    top: 812px;
+    right: 254px;
+}
+.service-hero hr{
+    height: 2px;
+    width: 143%;
+    margin: 26px 0;
+    color: black;
+
+}
+.service-hero h4{
+    font-size: 12px;
+    margin: 18px 16px;
+}
+.service-hero .button{
+    background-color: #bf50f5;
+    position: absolute;
+    top: 168px;
+    right: -84px;
+    border-radius: 50%;
+    padding: 5px 13px;
+}
+/* skills */
+.skills{
+    background-color:white;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.skill-text{
+    position: absolute;
+    top: 1582px;
+    left: 181px;
+}
+.skill-text h1{
+    font-size: 67px;
+    margin: 23px 0;
+}
+.skill{
+    position: absolute;
+    left: -38px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 144%;
+}
+.skill-text h5{
+    margin: 23px 0;
+}
+
+.skill-img{
+    margin: 33px 37px;
+    width: 70px;
+    height: 70px;
+    border-radius: 34px;
+    box-shadow: 3px 3px 3px;
+    padding: 6px;
+
+}
+.skill-img img{
+    width: 60px;
+    height: 60px;
+    /* margin: 4px; */
+    margin-bottom: 23px;
+}
+.experiance{
+    position: absolute;
+    right: 158px;
+    top: 1652px;
+}
+.experiance hr{
+    width: 100%;
+    margin: 33px 0;
+}
+.experiance p{
+    margin: 15px 0;
+}
+
+/* project */
+.project{
+    background-color:#ffff2861;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+
+}
+.project-text{
+    position: absolute;
+    top: 2329px;
+    left: 177px;
+}
+ .project-text h1{
+    font-size: 67px;
+    margin: 23px 0;
+ }
+.pro-img{
+    height: 250px;
+    width: 300px;
+}
+.project-hero{
+    position: absolute;
+    top: 2569px;
+    left: 181px;
+
+}
+.project-hero:nth-child(2){
+
+ position: absolute;
+ top: 2427px;
+ left: 590px;
+}
+.project-hero:nth-child(3){
+
+    position: absolute;
+    top: 2325px;
+    /* right: 176px; */
+    left: 1003px;
+}
+/* contact */
+.contact{
+    background-color:white;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.contact-text {
+    position: absolute;
+    top: 3100px;
+    left: 177px;
+}
+ .contact-text h1{
+    font-size: 67px;
+    margin: 23px 0;
+}
+.contact-text hr{
+    margin:40px 0;
+}
+ .email{
+    background-color: transparent;
+    font-size: 23px;
+    font-weight: 400;
+    border: none;
+ }
+ .contact-hero{
+    position: absolute;
+    top: 3100px;
+    right: 130px;
+
+ }
+ .massage-sec{
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 190px 0px 0px 112px;
+ }
+ .massage-sec hr{
+    width: 100%;
+    margin-top: 42px;
+    rotate: 13deg;
+    margin-left: -73px;
+ }
+ .massage-sec .button{
+    background-color: #bf50f5;
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    top: 129px;
+    right: 56px;
+    border-radius: 50%;
+ }
+
+ .footer{
+    display: flex;
+    margin-bottom: 2px;
+    position: absolute;
+    top: 3723px;
+    border-top: 2px solid black;
+ }
+ .footer li{
+    margin: 18px 94px;
+    text-decoration: none;
+    list-style: none;
+ }
+
+ @media only screen and (max-width: 1300px)  {
+    .text {
+        
+        left: 210x;
+    }
+    .hero {
+       right: 19px; 
+    }
+    .Service-text {
+        left: 145px;
+    }
+    .Service-text h1 {
+        font-size: 60px;
+       
+    }
+    .Service-text p {
+        font-size: 16px;
+    
+    }
+    .skill-text {
+        top: 1389px;
+    }
+    .experiance {
+        top: 1420px;
+    }
+    .project-text {
+        top: 2074px;
+        left: 124px;
+    }
+    .pro-img {
+        height: 175px;
+        width: 250px;
+    }
+    .project-hero {
+        top: 2297px;
+        left: 120px;
+    }
+    .project-hero:nth-child(2) {
+        top: 2185px;
+        left: 414px;
+    }
+    .project-hero:nth-child(3) {
+        top: 2089px;
+        left: 701px;
+    }
+    .contact-text {
+        top: 2734px;
+        left: 107px;
+    }
+    .contact-text h1 {
+        font-size: 47px;
+    }
+    .contact-hero {
+        top: 2767px;
+        right: 29px;
+    }
+    .footer {
+        top: 3363px;
+    }
+    .footer li {
+        margin: 18px 56px;
+       
+    }
+    
+ 
+ }
+
+ @media only screen and (max-width: 992px)  {
+    .home {
+        height: 147vh;
+     
+    }
+    .hero {
+       
+        left: 184px;
+        top: 588px;
+    }
+    .text {
+       
+        left: 184px;
+    }
+    .socal {
+        top: 875px;
+        left: 184px;
+    }
+    .Service-text {
+        top: 1124px;
+        left: 91px;
+    }
+    .Service-text p {
+        font-size: 13px;
+    }
+    .Service-text h1 {
+        font-size: 58px;
+       
+    }
+    .service-hero {
+        top: 1117px;
+        right: 188px;
+    }
+    .skill-text {
+        top: 1696px;
+        left: 92px;
+        width: 31%;
+    }
+    .skill-text h1 {
+        font-size: 47px;
+    }
+    .experiance {
+        right: 122px;
+        top: 1731px;
+    }
+    .project-text {
+        top: 2358px;
+        left: 91px;
+    }
+    .project-text h1 {
+        font-size: 44px;
+    }
+    .project-hero {
+        top: 2552px;
+        left: 93px;
+    }
+    .project-hero:nth-child(2) {
+        top: 2692px;
+    left: 460px;
+    }
+    .project-hero:nth-child(3) {
+        top: 2370px;
+    left: 454px;
+    }
+    
+    .pro-img {
+        height: 160px;
+        width: 200px;
+    }
+    .contact-text {
+        top: 3051px;
+        left: 111px;
+    }
+    .contact-text h1 {
+        font-size: 48px;
+        margin: 23px 0;
+    }
+    .contact-hero {
+        top: 3100px;
+        right: 48px;
+    }
+    .massage-sec {
+        width: 332px;
+        height: 332px;
+        padding: 121px 0px 0px 87px;
+    }
+    .massage-sec .button {
+        width: 70px;
+        height: 70px;
+        
+    }
+    .footer {
+        left: 64px;
+        top: 3574px;
+    }
+    .footer li {
+        margin: 19px 15px;
+       
+    }
+    
+    
+    
+ }
+
+ @media only screen and (max-width: 720px)  {
+    
+    .home {
+        height: 171vh;
+    }
+    .text {
+        left: 96px;
+    }
+    .hero {
+        left: 75px;
+        top: 661px;
+    }
+    .socal {
+        top: 1065px;
+        left: 85px;
+    }
+    .service {
+   
+        height: 107vh;
+    }
+    .service-hero {
+        top: 1427px;
+        right: 188px;
+    }
+    .Service-text {
+        top: 1179px;
+        left: 113px;
+    }
+    .skills {
+       
+        height: 143vh;
+    }
+    .skill-text {
+        top: 1900px;
+        left: 89px;
+        width: 59%;
+    }
+    .experiance {
+        right: 164px;
+        top: 2429px;
+    }
+    .project {
+        height: 163vh;
+    }
+    .project-text {
+        top: 2814px;
+        left: 178px;
+    }
+    .project-hero {
+        top: 2971px;
+        left: 162px;
+    }
+    .project-hero:nth-child(2) {
+        top: 3278px;
+        left: 172px;
+    }
+    .project-hero:nth-child(3) {
+        top: 3581px;
+        left: 177px;
+    }
+    .contact-text {
+        top: 3934px;
+
+    }
+    .contact-hero {
+        top: 4472px;
+        right: 67px;
+    }
+    .footer {
+        top: 4847px;
+        left: 29px;
+    }
+    .footer li {
+        margin: 19px 18px;
+        font-size: 8px;
+    }
+
+ }
+ @media only screen and (max-width: 512px)  {
+    .home {
+        height: 154vh;
+    }
+    .logo {
+        margin-left: 21px;
+    }
+    .hero {
+        left: 27px;
+        top: 685px;
+        height: 296px;
+        width: 296px;
+    }
+    .pic {
+      
+        right: -31px;
+        top: -76px;
+    }
+    .text {
+        left: 62px;
+    }
+    .text .butn {
+      
+        margin: 0 4px;
+    }
+    .socal {
+        left: 10px;
+    }
+    .Service-text {
+        left: 36px;
+    }
+    .service-hero {
+        top: 1463px;
+        right: 151px;
+    }
+    .service {
+        height: 100vh;
+    }
+    .skills {
+        height: 133vh;
+    }
+    
+    .skill-text {
+        left: 50px;
+        width: 60%;
+    }
+    .experiance {
+        right: 80px;
+        top: 2540px;
+    }
+    .skills {
+        height: 156vh;
+    }
+    .project {
+        height: 142vh;
+    }
+    .project-text {
+        top: 2917px;
+        left: 106px;
+    }
+    .project-hero {
+        top: 3080px;
+        left: 89px;
+    }
+    .project-hero:nth-child(2) {
+        top: 3383px;
+        left: 90px;
+    }
+    .project-hero:nth-child(3) {
+        top: 3685px;
+        left: 89px;
+    }
+    .contact-text {
+        top: 3987px;
+        left: 44px;
+    }
+    .contact-text h1 {
+        font-size: 40px;
+    }
+    .contact-hero {
+        right: 26px;
+    }
+    .footer {
+        left: 12px;
+    }
+    .footer li {
+        margin: 19px 7px;
+       
+    }
+ }
